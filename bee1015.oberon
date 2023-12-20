@@ -7,10 +7,13 @@ VAR
 
 PROCEDURE DistanciaEntreDoisPontos;
 BEGIN
-    Input.Int(X);
-    Input.Real(Y);
+    Input.Real(x1);
+    Input.Real(y1);
 
-    distancia := Math.Sqrt(Math.Power(x2 - x1) + Math.Power(y2 - y1), 2);
+    Input.Real(x2);
+    Input.Real(y2);
+
+    distancia := Math.Sqrt(Math.Power(x2 - x1, 2) + Math.Power(y2 - y1, 2));
 
     Texts.WriteReal(Texts.Console, distancia, 4);
     Texts.WriteLn(Texts.Console);
