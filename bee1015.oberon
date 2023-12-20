@@ -1,0 +1,21 @@
+MODULE bee1015;
+
+IMPORT Input, Texts, Math;
+
+VAR
+    x1, y1, x2, y2, distancia: REAL;
+
+PROCEDURE DistanciaEntreDoisPontos;
+BEGIN
+    Input.Int(X);
+    Input.Real(Y);
+
+    distancia := Math.Sqrt(Math.Power(x2 - x1) + Math.Power(y2 - y1), 2);
+
+    Texts.WriteReal(Texts.Console, distancia, 4);
+    Texts.WriteLn(Texts.Console);
+END DistanciaEntreDoisPontos;
+
+BEGIN
+    DistanciaEntreDoisPontos;
+END bee1015.
