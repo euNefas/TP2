@@ -12,7 +12,7 @@ BEGIN
     Input.Int(C);
     Input.Int(D);
 
-    diferenca := (A*B)-(C*D);
+    diferenca := (A * B) - (C * D);
 
     Texts.WriteString(Texts.Console, "DIFERENCA = ");
     Texts.WriteInt(Texts.Console, diferenca, 0);

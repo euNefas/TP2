@@ -10,7 +10,7 @@ BEGIN
     Input.Int(A);
     Input.Int(B);
 
-    media := ((A*3.5)+(B*7.5))/11;
+    media := ((A * 3.5) + (B * 7.5)) / 11;
 
     Texts.WriteString(Texts.Console, "MEDIA = ");
     Texts.WriteReal(Texts.Console, media, 5);

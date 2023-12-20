@@ -16,7 +16,7 @@ BEGIN
     Input.Int(numero_peca2);
     Input.Real(valor_peca2);
 
-    total := (numero_peca1*valor_peca1)+(numero_peca2*valor_peca2);
+    total := (numero_peca1 * valor_peca1) + (numero_peca2 * valor_peca2);
 
     Texts.WriteString(Texts.Console, "VALOR A PAGAR: R$ ");
     Texts.WriteReal(Texts.Console, total, 2);

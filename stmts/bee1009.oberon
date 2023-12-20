@@ -12,7 +12,7 @@ BEGIN
     Input.Real(salario_fixo);
     Input.Real(vendas);
 
-    total := salario_fixo+(vendas*0.15);
+    total := salario_fixo + (vendas * 0.15);
 
     Texts.WriteString(Texts.Console, "TOTAL = R$ ");
     Texts.WriteReal(Texts.Console, total, 2);
